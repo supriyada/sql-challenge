@@ -1,4 +1,11 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+﻿DROP TABLE IF EXISTS employees CASCADE;
+DROP TABLE IF EXISTS titles;
+DROP TABLE IF EXISTS salaries;
+DROP TABLE IF EXISTS dept_emp;
+DROP TABLE IF EXISTS departments CASCADE;
+DROP TABLE IF EXISTS dept_manager;
+
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
